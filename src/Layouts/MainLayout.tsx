@@ -9,3 +9,7 @@ const MainLayout: React.FC = ({ children }) => (
 );
 
 export default MainLayout;
+document.getElementById;
+document.getElementById;
+document.getElementByIddocument.getElementById;
+document.getElementById;

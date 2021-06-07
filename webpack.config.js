@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   mode: 'development',
   output: {
     filename: 'bundle.js',
@@ -13,8 +13,11 @@ module.exports = {
     port: 5000
   },
   module: {
-    // Rules for stylesheets, images and fonts.
     rules: [
+      {
+        test: /\.(scss|css)$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
@@ -33,6 +36,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js', '.scss']
   }
 };

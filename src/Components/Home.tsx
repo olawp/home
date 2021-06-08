@@ -1,11 +1,13 @@
-import React from 'react';
+import * as React from 'react';
+import { Box } from '@chakra-ui/react';
+import { FC } from 'react';
 
-const Home: React.FC = () => (
-  <div>
-    <h1>Test</h1>
-    <p>Sigg</p>
-    <p>Digg</p>
-  </div>
-);
+const Home: FC = () => {
+  return (
+    <Box>
+      <h1>Hei alle sammen</h1>
+    </Box>
+  );
+};
 
 export default Home;

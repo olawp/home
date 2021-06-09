@@ -27,7 +27,8 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    //Sjekk ut denne
+    "isolatedModules": false
   },
   "exclude": ["node_modules", "tmp"],
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]

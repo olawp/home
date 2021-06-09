@@ -6,9 +6,13 @@ A page used for playing around with a variety of different technologies i find i
 
 Setting ut some stuff like:
 
-- Webpack
+- ~~Webpack~~ Parcel
 - Prettier
 - ESLint
 - Typescript
 - Babel
 - Husky and lint-staged
+
+## Revision 2(?)
+
+This project has pivoted towards a algorithm educational thing, not sure yet

@@ -1,9 +1,9 @@
 /*
   While this stack realistically will never be used with anything other than numbers, il make it generic
   This stack is implemented using an array and uses the built in array operations pop and push.
-  I might change this up later, but the builtin functions are probably faster than my possible implementation
+  I might change this up later, but the builtin functions are probably faster than my possible implementation anyway
 
-  The stack can be initialized like this. It can either be generic like this:
+  The stack can be initialized in two ways. It can either be generic like this:
 
   const stack = new GenericStack();
   or you can specify the type, like this: 
